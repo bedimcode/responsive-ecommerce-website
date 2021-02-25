@@ -1,0 +1,133 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+/*===== VARIABLES CSS =====*/
+:root {
+  --header-height: 3rem;
+  --font-semi: 600;
+  --font-bold: 700;
+}
+
+/*===== Colores =====*/
+:root {
+  --second-color: #E55947;
+  --second-color-alt: #D2321E;
+  --white-color: #FAFAFF;
+  --dark-color: #101010;
+  --dark-color-light: #606060;
+  --gray-color: #F0F1F3;
+}
+
+/*===== Fuente y tipografia =====*/
+:root {
+  --body-font: 'Open Sans', sans-serif;
+  --big-font-size: 3rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --normal-font-size: .938rem;
+  --small-font-size: .75rem;
+}
+
+@media screen and (min-width: 1024px) {
+  :root {
+    --big-font-size: 6rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .813rem;
+  }
+}
+
+/*===== Margenes =====*/
+:root {
+  --mb-1: 0.5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+  --mb-4: 2rem;
+}
+
+/*===== z index =====*/
+:root {
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+
+/*===== BASE =====*/
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: var(--header-height) 0 0 0;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  color: var(--dark-color);
+  line-height: 1.6;
+}
+
+h1, h2, p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark-color);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*===== CLASS CSS ===== */
+
+
+/*===== LAYOUT =====*/
+
+
+/*===== NAV =====*/
+
+
+/*=== Show menu ===*/
+
+
+/*===== HOME =====*/
+
+
+/*BUTTONS*/
+
+
+/*===== COLLECTION =====*/
+
+
+/*===== FEATURED PRODUCTS =====*/
+
+
+/*===== OFFER =====*/
+
+
+/*===== NEW ARRIVALS =====*/
+
+
+/*===== NEWSLETTER =====*/
+
+
+/*===== SPONSORS =====*/
+
+
+/*===== FOOTER =====*/
+
+
+/* ===== MEDIA QUERIES=====*/
+
+
